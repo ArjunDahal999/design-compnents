@@ -1,17 +1,9 @@
 "use client";
 
-import { TrendingUp } from "lucide-react";
 import { Bar, BarChart, CartesianGrid, XAxis } from "recharts";
 
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import {
+import
+{
   ChartConfig,
   ChartContainer,
   ChartTooltip,
@@ -37,7 +29,8 @@ const chartConfig = {
   },
 } satisfies ChartConfig;
 
-export function BarGraphComponent() {
+export function BarGraphComponent()
+{
   return (
     <div className=" size-56">
       <ChartContainer config={chartConfig}>
